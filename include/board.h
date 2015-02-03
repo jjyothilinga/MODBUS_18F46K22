@@ -85,7 +85,7 @@
 *------------------------------------------------------------------------------
 */
 
-#define DEVICE_ID			(0x01)
+#define DEVICE_ADDRESS			(0x01)
 
 
 #define PERIPHERAL_CLOCK			(SYSTEM_CLOCK / 4)UL

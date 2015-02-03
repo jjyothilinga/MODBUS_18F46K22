@@ -408,10 +408,7 @@ static void writeToDisplayPort( UINT8 value )
 	DIGIT_SEL_B = 1;
 	DIGIT_SEL_C = 1;
 	DIGIT_SEL_D = 1;
-	DIGIT_SEL_E = 1;
-	DIGIT_SEL_F = 1;
-	DIGIT_SEL_G = 1;
-	DIGIT_SEL_H = 1;
+
 	
 	DISPLAY_PORT = ~value;
 	switch( digitDisplay.digitIndex )
@@ -436,22 +433,7 @@ static void writeToDisplayPort( UINT8 value )
 		
    		break;
 
-		case 4:
-   			DIGIT_SEL_E = 0;
-		
-   		break;
 
-		case 5:
-   			DIGIT_SEL_F = 0;
-		break;
-		case 6:
-   			DIGIT_SEL_G = 0;
-		
-   		break;
-
-		case 7:
-   			DIGIT_SEL_H = 0;
-		break;
 
 		default:
 		break;

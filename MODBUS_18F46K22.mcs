@@ -13,7 +13,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File001]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\heartBeat.o
 Folder=Intermediary
@@ -26,7 +26,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File002]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\interruptvector.o
 Folder=Intermediary
@@ -39,7 +39,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File003]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\main.o
 Folder=Intermediary
@@ -52,7 +52,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File004]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\timer.o
 Folder=Intermediary
@@ -65,7 +65,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File005]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mb.o
 Folder=Intermediary
@@ -78,7 +78,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File006]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\portevent.o
 Folder=Intermediary
@@ -91,7 +91,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File007]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\portserial.o
 Folder=Intermediary
@@ -104,7 +104,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File008]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\porttimer.o
 Folder=Intermediary
@@ -117,7 +117,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File009]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbcrc.o
 Folder=Intermediary
@@ -130,7 +130,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File010]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbrtu.o
 Folder=Intermediary
@@ -143,7 +143,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File011]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbfunccoils.o
 Folder=Intermediary
@@ -156,7 +156,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File012]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbfuncdisc.o
 Folder=Intermediary
@@ -169,7 +169,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File013]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbfuncholding.o
 Folder=Intermediary
@@ -182,7 +182,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File014]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbfuncinput.o
 Folder=Intermediary
@@ -195,7 +195,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File015]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbfuncother.o
 Folder=Intermediary
@@ -208,7 +208,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File016]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\mbutils.o
 Folder=Intermediary
@@ -221,7 +221,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File017]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\app.o
 Folder=Intermediary
@@ -234,7 +234,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File018]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\obj\digitdisplay.o
 Folder=Intermediary
@@ -247,7 +247,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
-DebugOptions=-D__DEBUG
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
 [File019]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\output\MODBUS_18F46K22.cof
 Folder=Output
@@ -260,7 +260,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
 TraceCmdString=
-DebugOptions=/z__MPLAB_DEBUG=1
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_PK3=1 /z__ICD2RAM=1
 [File020]
 Location=D:\jo\Ideonics\Repository\MODBUS_18F46K22\output\MODBUS_18F46K22.hex
 Folder=Output
@@ -273,7 +273,7 @@ SOLK=<src>|source\board.c|source\heartBeat.c|source\interruptvector.c|source\mai
 SuiteArgsString=
 ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
 TraceCmdString=
-DebugOptions=/z__MPLAB_DEBUG=1
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_PK3=1 /z__ICD2RAM=1
 [TOOL_LOC_STAMPS]
 tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files\Microchip\mplabc18\v3.46\bin\mplink.exe
 tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files\Microchip\mplabc18\v3.46\bin\mcc18.exe

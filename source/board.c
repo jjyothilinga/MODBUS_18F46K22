@@ -143,7 +143,7 @@ void BRD_init(void)
 	HEART_BEAT_DIRECTION = PORT_OUT;
 
     // Enable internal PORTB pull-ups
-    INTCON2bits.RBPU = 0;
+    //INTCON2bits.RBPU = 0;
 
 	TX_EN_DIR = PORT_OUT;		// Rs485 Direction Control
 	TX_EN = 0;					//initialized for RX 
@@ -154,8 +154,12 @@ void BRD_init(void)
 
 
 	
-	DISPLAY_PORT_DIRECTION = 0x00;	// Segment Data port	
+	DISPLAY_PORT_DIRECTION = 0x00;	// Segment Data port
 
+	DIGIT_SEL_A_DIRECTION = PORT_OUT;	
+	DIGIT_SEL_B_DIRECTION = PORT_OUT;
+	DIGIT_SEL_C_DIRECTION = PORT_OUT;
+	DIGIT_SEL_D_DIRECTION = PORT_OUT;
 }
 
 
